@@ -1,0 +1,161 @@
+body{
+	margin: auto;
+	background-image: url(assets/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #670202;
+}
+header {
+	background-color:#050505;
+	padding: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #670202;
+	padding-left: 20%;
+	background-repeat: no-repeat;
+}
+
+/* .logo {
+	padding-left: 20%;
+	background-repeat: no-repeat;
+} */
+.menu-right {
+	display: flex;
+	float: right;
+	padding-right: 20%;
+	display: flex;
+	text-decoration: none;
+}
+.table-game{
+	margin-top: -25px;
+	color: white;
+}
+footer{
+	width: 100%;
+	background-color: #ff0000;
+	height: 50px;
+	border-top: 1px solid #ff0000;
+}
+.imagehead{
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+}
+.container{
+	display: flex;
+	padding-top: 2%;
+}
+.img_main{
+	padding-left: 23%;
+}
+.main-content{
+	margin-inline-start: -90px;
+	margin-top: 88px;
+}
+.p-main-1{
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+}
+.p-main-2{
+	color: white;
+	margin-top: -20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.content{
+	padding-top: 10px;
+}
+.a-content1{
+	background-color: red;
+	color: white;
+	padding: 1vh;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 5%;
+	padding: 10px 20px;
+}
+.a-content2{
+	background-color: transparent;
+	color: white;
+	padding: 1vh;
+	border-radius: 5px;
+	 border:1px solid red;
+	 cursor: pointer;
+	 padding: 10px 20px;
+}
+.page-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sub-page-content1{
+	margin-right: 5%;
+}
+.sub-page-content2{
+	margin-left: 5%;
+}
+.img-page1{
+	align-items: center;
+}
+.img-page2{
+	align-items: center;
+	margin-left: 50px;
+}
+.p-page1{
+	color: red;
+	font-size: 30px;
+	align-items: center;
+	padding-right: 10px;
+}
+.p-page2{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.daftar-game{
+	display: flex;
+	justify-content: center;
+}
+.card-game{
+	text-align: center;
+}
+.img-sport{
+	margin-left: 25px;
+}
+.end-page{
+	justify-content: center;
+}
+.h1-end{
+	color: red;
+	text-align: center;
+}
+.p-end{
+	color: white;
+	text-align: center;
+	 font-size: 18px;
+}
+.p-end2{
+	color: white;
+	text-align: center;
+	margin-top:-10px ;
+	font-size: 18px;
+}
+.sub-end-page{
+	text-align:center;
+	margin-top: 2%;
+}
+.slot{
+	margin-left: -45px;
+}
+.end-page2{
+	justify-content: center;
+	text-align: center;
+}
+.claim{
+	height: 25px;
+	padding-top: 5px
+}
+.help{
+	height: 20px;
+	padding-top: 10px;
+}

@@ -1,0 +1,411 @@
+bg-shape img {
+    z-index: -1;
+    position: absolute
+}
+
+#shape-right {
+    right: 0
+}
+
+body {
+    margin: 0;
+    font-family: 'Titillium Web';
+    background: -webkit-gradient(linear, left top, right bottom, from(#290000), to(#280000)) fixed
+}
+
+.nav-black {
+    padding: 15px 0;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-around;
+    background-color: #000;
+    border-bottom: 1px solid #611a1a
+}
+
+.left-space {
+    margin-left: 30px
+}
+
+.pointer {
+    cursor: pointer;
+    color: #fff;
+    line-height: 2
+}
+
+.pointer img {
+    vertical-align: baseline;
+    margin-right: 5px
+}
+
+.center-force {
+    position: relative;
+    top: 3px
+}
+
+.tag-jackpot {
+    margin: auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-around
+}
+
+.jackpot {
+    display: flex;
+    flex-direction: column
+}
+
+.jackpot .title {
+    font-size: 36px;
+    font-weight: 700;
+    color: red
+}
+
+.jackpot .desc {
+    font-size: 30px;
+    color: #fff
+}
+
+.jackpot-1 img {
+    margin-left: 10px
+}
+
+.jackpot-2 img {
+    margin-left: 60px
+}
+
+.rectangle {
+    height: 40px;
+    margin-top: 30px
+}
+
+.category {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column
+}
+
+.category .title {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    bottom: 0
+}
+
+.tag-category {
+    margin: auto;
+    width: 1150px;
+    display: flex;
+    justify-content: space-around
+}
+
+.category img {
+    position: relative
+}
+
+.category:nth-child(1) img {
+    right: 5px
+}
+
+.category:nth-child(1) .title {
+    left: 10px
+}
+
+.category:nth-child(2) .title {
+    left: 15px
+}
+
+.category:nth-child(3) .title {
+    left: 10px
+}
+
+.category:nth-child(4) img {
+    top: 5px;
+    right: 60px
+}
+
+.category:nth-child(4) .title {
+    left: 10px
+}
+
+.category:nth-child(5) img {
+    top: 10px;
+    right: 5px
+}
+
+.category:nth-child(5) .title {
+    left: 10px
+}
+
+.category:nth-child(6) img {
+    right: 10px;
+    top: 10px
+}
+
+.category:nth-child(6) .title {
+    left: 10px
+}
+
+.category:nth-child(7) img {
+    right: 20px;
+    top: 15px
+}
+
+.tag-bank {
+    margin: 20px auto 80px auto;
+    background-color: #000;
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid gold;
+    padding: 15px 20px
+}
+
+.bank {
+    width: 200px;
+    display: flex;
+    justify-content: space-around
+}
+
+.bank img {
+    position: relative;
+    top: 3px
+}
+
+.bank:nth-child(1) {
+    width: 250px !important
+}
+
+.online {
+    font-weight: 700;
+    color: #32bd08
+}
+
+.main-body {
+    margin: auto;
+    margin-top: 30px;
+    width: 1150px
+}
+
+.main-body .title {
+    color: red;
+    font-size: 36px;
+    font-weight: 700
+}
+
+.main-body p {
+    margin: 10px auto auto auto;
+    padding: 0 20px;
+    width: auto;
+    font-size: 16px;
+    color: #fff
+}
+
+.main-header {
+    margin: auto;
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center
+}
+
+.main-header .title {
+    font-size: 24px;
+    color: #fff
+}
+
+.main-header .desc {
+    font-size: 36px;
+    color: #fff;
+    position: relative;
+    bottom: 10
+}
+
+.main-header .main-detail {
+    position: relative;
+    top: 55;
+    right: 125
+}
+
+.main-header .button {
+    display: flex;
+    flex-direction: row
+}
+
+.main-header button {
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px
+}
+
+.main-header button:nth-child(1) {
+    background-color: red;
+    color: #fff;
+    border: none
+}
+
+.main-header button:nth-child(2) {
+    background-color: Transparent;
+    color: #fff;
+    margin-left: 10px;
+    border-color: red;
+    font-size: 20px
+}
+
+.main-logo {
+    position: relative;
+    right: 40
+}
+
+footer {
+    background-color: red;
+    height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px
+}
+
+.text-center {
+    text-align: center
+}
+
+.div-img {
+    height: 140px;
+    width: 0
+}
+
+hr {
+    border-top: 1px solid #fff
+}
+
+.hr-vrt {
+    height: 20px;
+    border-left: .5px solid #fff
+}
+
+#hr-colsm {
+    display: none;
+    width: 80%;
+    margin-bottom: 20px
+}
+
+@media only screen and (max-width:1250px) {
+    .category {
+        width: 200px
+    }
+
+    .tag-category {
+        width: auto
+    }
+}
+
+@media only screen and (max-width:1150px) {
+    .main-body {
+        width: auto
+    }
+
+    .main-header {
+        width: 100%
+    }
+
+    .tag-category {
+        flex-wrap: wrap !important
+    }
+
+    .category:nth-child(1) .title {
+        left: -10px
+    }
+
+    .category:nth-child(2) .title {
+        left: -5px
+    }
+
+    .category:nth-child(3) .title {
+        left: -10px
+    }
+
+    .category:nth-child(4) .title {
+        left: -5px
+    }
+
+    .category:nth-child(5) .title {
+        left: -5px
+    }
+
+    .category:nth-child(6) .title {
+        left: -5px
+    }
+
+    .category:nth-child(7) .title {
+        left: -10px
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .tag-bank {
+        flex-direction: column;
+        width: 250px
+    }
+
+    .bank {
+        width: 250px;
+        justify-content: space-between
+    }
+
+    .hr-vrt {
+        display: none
+    }
+}
+
+@media only screen and (max-width:710px) {
+    .tag-jackpot {
+        width: 400px;
+        flex-direction: column !important
+    }
+
+    .jackpot-1 img {
+        margin-left: 80px
+    }
+
+    .jackpot-2 img {
+        margin-left: 140px
+    }
+
+    .rectangle {
+        transform: rotate(90deg);
+        width: 25px;
+        height: auto;
+        margin: 10px auto 15px auto
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .main-header {
+        flex-direction: column
+    }
+
+    .main-logo {
+        margin: auto;
+        left: 0 !important
+    }
+
+    .main-detail {
+        margin: auto;
+        top: -30 !important;
+        right: 0 !important
+    }
+
+    #hr-colsm {
+        display: block
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .main-logo {
+        width: 100%
+    }
+}

@@ -1,0 +1,144 @@
+@font-face{
+    font-family: titiliumWeb;
+    src: url(../font/TitilliumWeb-Regular.ttf);
+}
+
+body{
+    background-color: #260000;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: titiliumWeb;
+}
+nav{
+    background-color: black;
+    height: 90px;
+    border-bottom: 1px solid #670202;
+}
+.navbar-header{
+    padding: 18px 300px ;
+}
+.navbar-header img{
+    height: 51px;
+}
+
+.right-nav{
+    float: right;
+    display: flex;
+}
+
+.icon1{
+    padding: 11px 8px;
+    height: 25px !important;
+}
+
+.icon2{
+    padding: 18px 8px 18px 40px;
+    height: 20px !important;
+}
+
+.container{
+    padding: 20px 200px;
+}
+.kartu-gold{
+    margin-left:330px;
+    height: 352px;
+}
+
+.main-atas{
+    color: white;
+    display: flex;
+}
+
+.title-main{
+    margin-top: 80px;
+    margin-left: -80px;
+}
+
+.title-main button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 50px;
+    width: 160px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.daftar-btn{
+    background-color: #ff0000;
+    border: none;
+}
+
+.login-btn{
+    border-color: #ff0000;
+    background-color: #260000;
+}
+
+.main-tengah1{
+    display: flex;
+    justify-content: center;
+}
+
+.left-main{
+    align-content: center;
+    color: #ff0000;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.center-main{
+    padding: 70px 0 90px 90px;
+    height: 100px;
+    width: 130px;
+}
+
+.right-main{
+    margin-top: 3px;
+    color: #ff0000;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.main-tengah2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main-tengah2 img{
+    height:110px;
+    margin-bottom: -30px;
+}
+
+.main-bawah{
+    padding: 0 200px;
+    color: #ff0000;
+}
+
+footer{
+   background-color: #ff0000;
+   height: 60px; 
+}
+
+.bank{
+    margin: 50px 0 80px 0;
+    height: 50px;
+    background-color: #0c0c0c;
+    border-radius: 25px;
+    border:1px solid #f9eca1;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}

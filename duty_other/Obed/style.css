@@ -1,0 +1,174 @@
+body {
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+#divpokercard {
+  margin: auto;
+  margin-top: 30px; 
+  width: 50%;
+  padding: 10px;
+}
+.poker_card {
+  float: left;
+  width: 100%;
+}
+#text_opening {
+  text-align: left;
+}
+#text_opening h4 {
+  color: white;
+  margin-top: 60px;
+}
+#text_opening h3 {
+  color: white;
+  font-weight: bold;
+  margin-top: 0px;
+}
+#text_opening .login {
+  background-color: transparent;
+  border: 1px solid red;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+}
+#text_opening .daftar {
+  background-color: red;
+  border: 1px solid red;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+}
+#navcenter {
+  margin: 0 400px 0 400px;
+}
+.fa_head {
+  color: red;
+}
+img {
+  width: 100px;
+  margin: 10px;
+}
+.navbar-fixed-bottom .navbar-header {
+  margin: 0 30% 0 30%;
+}
+.navbar-fixed-bottom {
+  background-color: red;
+}
+.navbar-fixed-bottom .navbar-header h6 {
+  margin: 18px;
+  color: #fff;
+}
+#Jackpot {
+  margin: auto;
+  margin-bottom: 30px; 
+  width: 50%;
+  padding: 10px;
+}
+#Jackpot h3 {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-top: 0px;
+}
+#Jackpot h4 {
+  color: white;
+  text-align: center;
+}
+#Jackpot div:nth-child(1) img {
+  width: 119px;
+}
+#Jackpot .col-md-4 {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+#div_main_menu {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+#div_main_menu .div_menu:nth-child(1) img {
+  width: 105px;
+}
+#div_main_menu .div_menu:nth-child(2) img {
+  width: 99px;
+}
+#div_main_menu .div_menu:nth-child(3) img {
+  width: 105px;
+}
+#div_main_menu .div_menu:nth-child(4) img {
+  width: 125px;
+}
+#div_main_menu .div_menu:nth-child(5) img {
+  width: 110px;
+}
+#div_main_menu .div_menu:nth-child(6) img {
+  width: 111px;
+}
+#div_main_menu .div_menu:nth-child(7) img {
+  width: 110px;
+}
+.div_menu h6 {
+  color: white;
+  text-align: center;
+}
+#div_information {
+  margin-top: 20px; 
+}
+#div_information h3 {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+#div_information p {
+  text-align: center;color: white;margin: 0 auto;width: 60%;
+}
+#name_bank {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px; 
+  background-color: #0c0c0c;
+  width: 40%;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid gold;
+}
+.div_bank_name {
+  text-align: center;
+  color: gold;
+}
+.imgBCA {
+  width: 60px;
+}
+.imgBRI {
+  width: 80px;
+}
+.imgBNI {
+  width: 70px;
+}
+.line_bank {
+  border-right: 1px solid gold;
+  margin: auto;
+  height: 30px;
+}
+/*#menu_game {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+#menu_game_body {
+  display: table;
+  margin: 0 auto;
+}
+ul.horizontal-list li {
+  display: inline;
+}*/

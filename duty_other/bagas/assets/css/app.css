@@ -1,0 +1,199 @@
+/* ===================== Device Style ===================== */
+@media (min-width: 544px) {
+  .container {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1030px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    width: 1060px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.row.no-gutters > div {
+  padding: 0;
+}
+
+@-webkit-keyframes marqueeAnimation-6041615 {
+  100% {
+    margin-left: -4978.125px;
+  }
+}
+
+@-webkit-keyframes marqueeAnimation-60416150 {
+  100% {
+    margin-left: -4978.125px;
+  }
+}
+
+body.main {
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../img/bgn.png) top ;
+  background-repeat: no-repeat;
+  background-size: 10600000px;
+}
+.header {
+  background-color: rgb(5,5,5);
+}
+.tgbtn {
+  background-color: rgb(255,255,255);
+}
+
+.textheader{
+    color: rgba(222,222,222);
+    font-family: 'Titillium Web', sans-serif;
+}
+.faimg{
+  margin-top: -6px;
+  width: 16px;
+  height: 16px;
+}
+.footer{
+    background-color: rgb(255,0,0);
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+.ft {
+   /* position: fixed;
+   left: 0;
+   bottom: 0; */
+   width: 100%;
+   height: 46px;
+   /* background-color: rgb(255,0,0); */
+   color: white;
+   text-align: center;
+   font-family: 'Titillium Web', sans-serif;
+   padding-top: 10px;
+}
+hr.new1 {
+  border-top: 1px solid rgba(222,222,222);
+    /* position: fixed; */
+    bottom: 34px;
+    width: 100%;
+}
+hr.new2 {
+  border-top: 1px solid rgba(222,222,222);
+  width: 100%;
+}
+
+.con-ft{
+   width: 100%;
+}
+
+.cardsimg{
+  margin-top: 16px;
+  height: 334px;
+  width: 600px;
+}
+
+.promotxt{
+  color: rgba(222,222,222);
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 90px;
+}
+
+.buttons {
+  padding: 10px 46px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-custom{
+   color: rgb(255,255,255);
+   border: 2px solid rgb(255,0,0);
+}
+.btn-custom:hover {
+  color: rgb(255,255,255);
+  background-color: rgb(255,0,0);
+}
+
+.star-l{
+  margin-left: 190px;
+}
+.star-r{
+  margin-left: 130px;
+}
+
+.jackpot{
+  padding-left: 210px;
+  padding-top: 20px;
+    color: rgb(255,0,0);
+    font-family: 'Titillium Web', sans-serif;
+}
+.megajp{
+  color: rgb(255,0,0);
+  padding-top: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.mid-line{
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+.bet{
+  margin-left: 30px;
+  color:  rgb(255,255,255);
+}
+.bett{
+  margin-left: 226px;
+  color:  rgb(255,255,255);
+}
+.imgg{
+  margin-bottom:30px;
+}
+.flaxui{
+  display: flex;
+  flex: left;
+}
+.gameimg{
+  width: 150px;
+  height: 150px;
+}
+.txtgame{
+  text-align: center;
+  /* margin-left: 30px;
+  padding-bottom: 50px;
+  color:  rgb(255,255,255); */
+}
+.tgame{
+  text-align: center;
+}
+.game2{
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
